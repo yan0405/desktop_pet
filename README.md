@@ -1,16 +1,20 @@
 # desktop_pet
 
-A new Flutter project.
+空虚寂寞冷，只想看小东西在桌面跑
 
-## Getting Started
+# Getting Started
 
-This project is a starting point for a Flutter application.
+```
+git clone
 
-A few resources to get you started if this is your first Flutter project:
+cd path/to/project/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+flutter create .
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter run
+```
+
+# 注意
+
+需要按需修改 macos/Runner/MainFlutterWindow.swift
+因为没找到更好的替代方案
